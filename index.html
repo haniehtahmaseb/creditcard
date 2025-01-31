@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amarante&family=Antonio:wght@500&family=Marcellus&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Noto+Sans+Elbasan&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand&family=Smooch+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div id="card">
+            <div id="cardb">
+                <span></span>
+                <div>
+                    <h4 id="_cv">****</h4>
+                    <label for="_cv">cvv</label>
+                </div>
+            </div>
+            <div id="cardf">
+                <div>
+                    <img src="asset/img/chip.png" alt="">
+                    <img src="asset/img/visa.png" alt="">
+                </div>
+                <div>
+                    <h2 id="cardNum">**** **** **** ****</h2>
+                </div>
+                <div>
+                    <label for="_name">card holder</label>
+                    <h4 id="_name">full name</h4>
+                    <label for="_date">expires</label>
+                    <h4 id="_date">yy/mm</h4>
+                </div>
+            </div>
+        </div>
+        <div id="form">
+            <div id="_num">
+                <h3>card number</h3>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div id="_holder">
+                <h3>card holders</h3>
+                <input type="text">
+            </div>
+            <div id="_date">
+                <div>
+                    <h3>expires</h3>
+                    <select name="" id="_month" onclick="month()"></select>
+                    <select name="" id="_year" onclick="year()"></select>
+                </div>
+                <div id="_cvv">
+                    <h3>cvv</h3>
+                    <input type="text">
+                </div>
+            </div>
+            <button id="submit">submit</button>
+        </div>
+    </main>
+</body>
+<script src="asset/js/script.js"></script>
+</html>
